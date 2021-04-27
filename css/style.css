@@ -26,32 +26,14 @@
     position: relative;
 }
 
-.img{
+/*  */
+
+.uno{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 700px;
-    height: 400px;
-
-}
-
-.text-logo{
-    text-align: center;
-    font-size: 100px;
-}
-
-.uno{
-    background-image: url("../img/01.png");
-    background-size: cover;
-}
-
-.due{
-    background-image: url("../img/02.png");
-    background-size: cover;
-}
-
-.tre{
-    background-image: url("../img/03.png");
-    background-size: cover;
+    border: 5px solid black;
+    width: 600px;
+    height: 500px;
 }
