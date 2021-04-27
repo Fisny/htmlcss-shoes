@@ -13,27 +13,27 @@ a{
     text-align: center;
     color: black;
     z-index: 1001;
+    position: fixed;
+    line-height: 60px;
+
 }
 
-.a1{
-    position: fixed;
+.a1{  
     top: 10px;
     right: 250px;
-    line-height: 60px;
+   
 }
 
 .a2{
-    position: fixed;
     top: 10px;
     right: 150px;
-    line-height: 60px;
+   
 }
 
-.a3{
-    position: fixed;
+.a3{ 
     top: 10px;
     right: 50px;
-    line-height: 60px;
+   
 }
 
 .container{
