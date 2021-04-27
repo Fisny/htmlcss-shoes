@@ -4,6 +4,38 @@
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 40px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    color: black;
+    z-index: 1001;
+}
+
+.a1{
+    position: fixed;
+    top: 10px;
+    right: 250px;
+    line-height: 60px;
+}
+
+.a2{
+    position: fixed;
+    top: 10px;
+    right: 150px;
+    line-height: 60px;
+}
+
+.a3{
+    position: fixed;
+    top: 10px;
+    right: 50px;
+    line-height: 60px;
+}
+
 .container{
     position: relative;
 }
@@ -33,7 +65,35 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 5px solid black;
     width: 600px;
-    height: 500px;
+    font-size: 80px;
+    text-align: center;
+    color: yellow;
+}
+
+img{
+    width: 80%;
+    height: 80%;
+}
+
+.due{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    font-size: 80px;
+    text-align: center;
+    color: yellow;
+}
+
+.tre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    font-size: 80px;
+    text-align: center;
+    color: green;
 }
